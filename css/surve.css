@@ -1,4 +1,182 @@
 .contents {
-  background-color: #f5f5f5;
-  height: 1000px;
+}
+.b_flip {
+    margin-top: 35px;
+    height: 320px;
+    margin-bottom: 90px;
+}
+
+.b_flip .b_bg {
+    width: 1160px;
+    height: 320px;
+    background-image: url(../images/sub/top_banner01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fef6fd;
+    position: relative;
+}
+
+.b_flip .b_bg .b_bga {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 210px;
+    left: 75px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.b_flip .b_bg .b_bga .first_a a {
+    border-bottom: 2px solid #000;
+}
+
+.b_flip .b_bg .b_bga .second_a a button {
+    width: 195px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.b_flip .b_bg .b_bga .second_a button:hover {
+    opacity: 50%;
+}
+
+.m_filp01 {
+    height: 530px;
+}
+
+.m_filp01 .flip_bg01 {
+    width: 1180px;
+    height: 530px;
+    background-image: url(../images/sub/zflib_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.m_filp01 .flip_bg01 img {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+}
+
+.filp01_downbg {
+    width: 1180px;
+    height: 200px;
+    background-color: #f5f5f5;
+    display: flex;
+    gap: 15px;
+}
+
+.down_box {
+    display: flex;
+    width: 320px;
+    height: 150px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.down_box .in_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.down_box .in_box img {
+    width: 100px;
+    height: 80px;
+}
+.down_box .in_box .in_text {
+    width: 170px;
+}
+.down_box .in_box .in_text p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.down_box .in_box .in_text h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main_text01 {
+    height: 400px;
+    text-align: center;
+}
+.main_text01 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 130px;
+}
+.main_text01 p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.main_text01 button {
+    width: 142px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.flip_bg02 {
+    width: 1180px;
+    height: 550px;
+    background-image: url(../images/sub/zflib_02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.flip_02 p {
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.flip_img01 {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.item_box01 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.item_box01 .item_text {
+    width: 520px;
+    height: 540px;
+}
+
+.item_box01 .item_text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-top: 100px;
+}
+.item_box01 .item_text h5 {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.item_box01 .item_text p {
+    font-size: 12px;
+    line-height: 1.3;
+}
+.item_box01 > img {
+    width: 520px;
+    height: 540px;
 }
